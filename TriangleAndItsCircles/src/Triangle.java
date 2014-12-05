@@ -40,7 +40,7 @@ public class Triangle {
 		return sides;
 	}
 
-	// // method for the bisector of the triangle of the triangle
+	 // method for the bisector of the triangle of the triangle
 	public static double bisector(double b, double c, double alpha) {
 		double p = 2 * b * c * Math.cos(alpha / 2);
 		double bis = p / (b + c);
